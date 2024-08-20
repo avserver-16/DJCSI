@@ -1,0 +1,311 @@
+body {
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Varies by browser */
+    font-size: 16px; /* Varies by browser */
+    color: black;
+    background-color: rgb(255, 255, 255);
+    height: 300vh;
+    width: 100%;
+    font-size: 24px;
+    cursor:default;
+}
+.body{
+    height: 400vh;
+    width: 100%;
+}
+
+.navBar{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+align-items: center;
+
+justify-content: space-between;
+}
+
+.logoName{
+    height: 90%;
+    width: 20%;
+    color: #4d565a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 700;
+  
+}
+.logo{
+    height: 15vh;
+    width: 15vh;
+
+padding: 10px;
+}
+ 
+.addressButtons{
+
+    width: 60%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fiveButtons{
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.navigateButtons{
+    height: 80%;
+    width: 20%;
+    color: #263238;
+    margin: 10px;
+    font: 0.9em sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.register{
+    background-color: #4CAF4F;
+    height: 50%;
+    width: 25%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.4s;
+}
+
+.register:hover{
+    background-color: #29672a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.355), /* Subtle shadow */
+    0 10px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+    cursor: pointer;
+}
+.askRegistration{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dynamics{
+    height: 80%;
+}
+
+.threeCards{
+
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+.cards{
+    height: 40vh;
+    width: 20%;
+    border-radius: 16px;
+    transition: 0.4s;
+
+}
+.cards:hover{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.197), /* Subtle shadow */
+    0 10px 20px rgba(0, 0, 0, 0.194); /* Deeper shadow */
+}
+
+#register{
+    height: 10vh;
+    margin-right: 65%;
+}
+
+#pop{
+    height: 60px;
+    width: 60px;
+}
+
+.learnMore{
+
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pics{
+
+    height: 90%;
+    width: 30%;
+}
+#push{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.information{
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    left: 8%;
+    top: -30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.098), /* Subtle shadow */
+    0 10px 20px rgba(0, 0, 0, 0.194); /* Deeper shadow */
+  
+    border-radius: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height:50vh;
+    width: 100%;
+    background-color: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.beloInfo{
+
+    height: 50vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icons{
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+
+i{
+    display: flex;
+    padding: 10px;
+  transition: 0.4s;
+    border-radius: 50%;
+    margin: 5px;
+    z-index: 1;
+}
+i:hover{
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.172);
+    backdrop-filter: blur(10px);
+    background-color: #ffffff0e;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60vh; /* Adjust width as needed */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.9em;
+    color: #4caf4fc1;
+}
+
+.column {
+    width: 100%; /* Adjust the width of each column */
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    font-size: 0.8em;
+    list-style-type: none;
+    padding: 0;
+    color: #4caf4f4e;
+}
+
+ul li {
+    margin: 15px 0px;
+    transition: 0.2s;
+}
+
+.input{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    height: 7vh;
+    width: 30vh;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.056);
+    padding: 5px 20px;
+    border: 0px;
+    font-size: 0.7em;
+}
+
+.learnMorecard{
+    height: 10vh;
+    width: 35vh;
+    background-color:#4CAF4F;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.4s;
+}
+
+.learn{
+    display: flex;
+    flex-direction: column;
+}
+.learnMorecard:hover{
+    background-color: #29672a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.355), /* Subtle shadow */
+    0 10px 20px rgba(0, 0, 0, 0.179); /* Deeper shadow */
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background:#4d565a;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#4CAF4F;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color:#65e267;
+}
+
+li:hover{
+    color: #4CAF4F;
+    cursor: pointer;
+}
